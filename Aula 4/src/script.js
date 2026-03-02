@@ -40,3 +40,28 @@ if (idade >= 18) {
 
 document.getElementById('idade').innerHTML = 'Sua idade é: ' + idade;
 document.getElementById('ex2').innerHTML = texto;
+
+
+// Exemplo If Aninhado
+//let idade2 = 18;
+//let pais = 'Estados Unidos';
+//let mensagem = 'Você não pode dirigir';
+
+//if (pais == 'Brasil') {
+  //if (idade2 >= 16) {
+   // mensagem = 'Você pode dirigir!';
+  //}
+//}
+
+//document.getElementById('ex3').innerHTML = mensagem;
+
+// Exemplod de If Aninhado com operador AND (&&)
+let idade3 = 16;
+let pais2 = 'Estados Unidos';
+let mensagem2 = 'Você não pode dirigir';
+
+if (pais2 == 'Estados Unidos' && idade3 == 16) {
+  mensagem2 = 'Você pode dirigir!';
+}
+
+document.getElementById('ex3').innerHTML = mensagem2;
