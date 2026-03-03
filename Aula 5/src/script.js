@@ -32,5 +32,6 @@ let opcoes = prompt(
       break;
 
       default:
-        alert("Informe um valor válido!");
+      alert("Informe um valor válido!");
+      window.location
   }
