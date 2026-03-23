@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  background-color: ghostwhite;
+}
+
+#container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background-color: darkred;
+}
+
+#animacao {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  background-color:darkslategray;
+}
